@@ -1,0 +1,280 @@
+<html>
+  <head>
+    <title>MyBand</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="title">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">MyBand</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active " href="#Features"
+              >Features <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link active" href="#">Contact</a>
+            <a class="nav-item nav-link active" href="#">Pricing</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">MyBand is changing the world.</h1>
+            <button
+              class="btn btn-outline-light btn-lg introButton"
+              style="width:150px; margin-right: 0.5rem; margin-bottom: 0.5rem;"
+            >
+              Learn More
+            </button>
+            <button
+              class="btn btn-outline-light btn-lg introButton"
+              style="width:150px; margin-right: 0.5rem; margin-bottom: 0.5rem;"
+            >
+              Order
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img src="image/apple-watch.png" alt="Watch-mockup" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section id="Features">
+      <div class="row features-row">
+        <div class="col-lg-4 features-col">
+          <i class="fas fa-file-medical features-icons"></i>
+          <h3>Health Assurance</h3>
+          <p>
+            It can measure your health condition by measuring heart rate, blood
+            pressure and more
+          </p>
+        </div>
+        <div class="col-lg-4 features-col">
+          <i class="fas fa-id-card features-icons"></i>
+          <h3>Identity Tracker</h3>
+          <p>
+            It can use as an alternative for Identity card, user do not need to
+            bring their identity card anywhere with them, just MyBand
+          </p>
+        </div>
+        <div class="col-lg-4 features-col">
+          <i class="fas fa-user-shield features-icons"></i>
+          <h3>Safety Tracker</h3>
+          <p>
+            Guarantee your safety by automatically contacting for police or
+            ambulance if detected that you are uncautious
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonial-->
+    <section id="Testimonial">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-content">
+              <h2>
+                "After having MyBand, it really improved my health as I can
+                always keep track of my health condition"
+              </h2>
+              <img class="test-object" src="image/snorlax.png" alt="Sample-1" />
+              <em>Melaka, Malaysia</em>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-content">
+              <h2>
+                "After having MyBand, it really improved my health as I can
+                always keep track of my health condition"
+              </h2>
+              <img class="test-object" src="image/snorlax.png" alt="Sample-1" />
+              <em>Melaka, Malaysia</em>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="testimonial-content">
+              <h2>
+                "After having MyBand, it really improved my health as I can
+                always keep track of my health condition"
+              </h2>
+              <img class="test-object" src="image/snorlax.png" alt="Sample-1" />
+              <em>Melaka, Malaysia</em>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--Press-->
+    </section>
+    <div class="press row">
+      <div class="col-lg-3">
+        <img class="press-icon" src="image/apple.svg" alt="" />
+      </div>
+      <div class="col-lg-3 ">
+        <img class="press-icon" src="image/google.svg" alt="" />
+      </div>
+      <div class="col-lg-3">
+        <img class="press-icon" src="image/samsung.png" alt="" />
+      </div>
+      <div class="col-lg-3 ">
+        <img class="press-icon" src="image/tesla.svg" alt="" />
+      </div>
+    </div>
+    <!--Pricing-->
+    <section id="Price">
+      <h1 class="section-heading">MyBand</h1>
+      <p>
+        Reach everyone's needs with various models with affordable price plans.
+      </p>
+
+      <div class="card-deck">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="price-heading">MyBand v1</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-tag">RM 100.00</h2>
+              <p>Identity Tracker</p>
+              <p>Health Tracker</p>
+              <button type="button" class="btn btn-outline-light btn-block">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="price-heading">MyBand v2</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-tag">RM 300.00</h2>
+              <p>Identity Tracker</p>
+              <p>Health Tracker</p>
+              <p>Safety Tracker</p>
+              <button type="button" class="btn btn-outline-light btn-block">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="price-heading">MyBand v3</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-tag">RM 500.00</h2>
+              <p>Identity Tracker</p>
+              <p>Health Tracker</p>
+              <p>Safety Tracker</p>
+              <p>Food Analysis</p>
+              <p>Education Analysis</p>
+              <button type="button" class="btn btn-outline-light btn-block">
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="BuyNow">
+      <div>
+        <h2>
+          Don't consider and hesitate again, just buy now for your health and
+          for your family too.
+        </h2>
+        <button
+          class="btn btn-outline-light btn-lg"
+          style="width:150px; margin-right: 0.5rem; margin-bottom: 0.5rem;"
+        >
+          Buy Now
+        </button>
+      </div>
+    </section>
+    <script src="js/new.js"></script>
+  </body>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-3 social-media-logo">
+        <img src="image/github-image.svg" alt="" />
+      </div>
+      <div class="col-sm-3 social-media-logo">
+        <img src="image/gmail.svg" alt="" />
+      </div>
+      <div class="col-sm-3 social-media-logo">
+        <img src="image/instagram.svg" alt="" />
+      </div>
+      <div class="col-sm-3 social-media-logo">
+        <img src="image/linkedin.svg" alt="" />
+      </div>
+    </div>
+    <p>© Copyright 2020 MyBand</p>
+  </footer>
+</html>
